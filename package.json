@@ -1,0 +1,29 @@
+{
+  "name": "nestia-3-1-4-reproduce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sdk": "nestia sdk",
+    "prepare": "ts-patch install && typia patch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestia/core": "3.1.4",
+    "@nestjs/common": "^9.3.9",
+    "@nestjs/config": "^2.2.0",
+    "@nestjs/core": "^9.3.9",
+    "typia": "^6.0.3"
+  },
+  "devDependencies": {
+    "@nestia/e2e": "^0.4.3",
+    "@nestia/fetcher": "3.1.4",
+    "@nestia/sdk": "3.1.4",
+    "nestia": "^5.3.0",
+    "ts-node": "^10.9.2",
+    "ts-patch": "^3.1.2",
+    "typescript": "5.4.2"
+  }
+}
